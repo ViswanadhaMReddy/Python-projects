@@ -1,0 +1,56 @@
+serial _no,Column Names,Description
+1,emp_title,Job title.
+2,emp_length,"Number of years in the job, rounded down. If longer than 10 years, then this is represented by the value 10."
+3,state,Two-letter state code.
+4,homeownership,The ownership status of the applicant's residence.
+5,annual_income,Annual income.
+6,verified_income,Type of verification of the applicant's income.
+7,debt_to_income,Debt-to-income ratio.
+8,annual_income_joint,"If this is a joint application, then the annual income of the two parties applying."
+9,verification_income_joint,Type of verification of the joint income.
+10,debt_to_income_joint,Debt-to-income ratio for the two parties.
+11,delinq_2y,Delinquencies on lines of credit in the last 2 years.
+12,months_since_last_delinq,Months since the last delinquency.
+13,earliest_credit_line,Year of the applicant's earliest line of credit
+14,inquiries_last_12m,Inquiries into the applicant's credit during the last 12 months.
+15,total_credit_lines,Total number of credit lines in this applicant's credit history.
+16,open_credit_lines,Number of currently open lines of credit.
+17,total_credit_limit,"Total available credit, e.g. if only credit cards, then the total of all the credit limits. This excludes a mortgage."
+18,total_credit_utilized,"Total credit balance, excluding a mortgage."
+19,num_collections_last_12m,Number of collections in the last 12 months. This excludes medical collections.
+20,num_historical_failed_to_pay,"The number of derogatory public records, which roughly means the number of times the applicant failed to pay."
+21,months_since_90d_late,Months since the last time the applicant was 90 days late on a payment.
+22,current_accounts_delinq,Number of accounts where the applicant is currently delinquent.
+23,total_collection_amount_ever,The total amount that the applicant has had against them in collections.
+24,current_installment_accounts,"Number of installment accounts, which are (roughly) accounts with a fixed payment amount and period. A typical example might be a 36-month car loan."
+25,accounts_opened_24m,Number of new lines of credit opened in the last 24 months.
+26,months_since_last_credit_inquiry,Number of months since the last credit inquiry on this applicant.
+27,num_satisfactory_accounts,Number of satisfactory accounts.
+28,num_accounts_120d_past_due,Number of current accounts that are 120 days past due.
+29,num_accounts_30d_past_due,Number of current accounts that are 30 days past due.
+30,num_active_debit_accounts,Number of currently active bank cards.
+31,total_debit_limit,Total of all bank card limits.
+32,num_total_cc_accounts,Total number of credit card accounts in the applicant's history.
+33,num_open_cc_accounts,Total number of currently open credit card accounts.
+34,num_cc_carrying_balance,Number of credit cards that are carrying a balance.
+35,num_mort_accounts,Number of mortgage accounts.
+36,account_never_delinq_percent,Percent of all lines of credit where the applicant was never delinquent.
+37,tax_liens,a numeric vector
+38,public_record_bankrupt,Number of bankruptcies listed in the public record for this applicant.
+39,loan_purpose,The category for the purpose of the loan.
+40,application_type,The type of application: either individual or joint.
+41,loan_amount,The amount of the loan the applicant received.
+42,term,The number of months of the loan the applicant received.
+43,interest_rate,Interest rate of the loan the applicant received.
+44,installment,Monthly payment for the loan the applicant received.
+45,grade,Grade associated with the loan.
+46,sub_grade,Detailed grade associated with the loan.
+47,issue_month,Month the loan was issued.
+48,loan_status,Status of the loan.
+49,initial_listing_status,Initial listing status of the loan. (I think this has to do with whether the lender provided the entire loan or if the loan is across multiple lenders.)
+50,disbursement_method,Dispersement method of the loan.
+51,balance,Current balance on the loan.
+52,paid_total,Total that has been paid on the loan by the applicant.
+53,paid_principal,The difference between the original loan amount and the current balance on the loan.
+54,paid_interest,The amount of interest paid so far by the applicant.
+55,paid_late_fees,Late fees paid by the applicant.
