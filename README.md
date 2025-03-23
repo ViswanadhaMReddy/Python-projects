@@ -1,4 +1,4 @@
-# Python-projects
+# Python-Project
 # Lending Club Loans
 # Project Overview
 - Lending Club is a peer-to-peer lending platform that connects borrowers with investors.
